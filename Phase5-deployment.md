@@ -10,7 +10,11 @@ e.g. cloud (aws ec2? ecs? ), edge, on-preime
 e.g. onnxruntime? tensorrt? aws sagemaker neo?
 
 3. Application Deployment
-e.g. aws beanstalk?
+e.g. aws beanstalk? docker container? on cloud solutions: aws sagemaker? azure ml?
+
+4. Model acceleration:
+- hardware acceleration: CPU, GPU, FPGA
+- inference acceleration: use c++ based library for inference speed-up. eg, tensorrt.
 
 4. Infrastructure Deployment
 e.g. terraform?

@@ -7,8 +7,12 @@ e.g. A marine navigation company needs to integrate ML techniques into their nav
 2. Form a business question
 e.g. How ML can help improve the captain's situation awareness?
 
-3. Hightlight project's critical features
-e.g. People: ML engineers, data engineers. Resources: Azure ML
+3. Highlight project's critical features
+Depends on the company's structure, critical features can be the following:
+- People and talent: ML engineers, data engineers, scrum masters(solution owner), QE, Experience Design, cloud engineer(cds), SE, etc
+- Resources: hardware, software
+- Budget: cost for implementing the whole plan
+- Deadline: definition of ready and done
 
 ## Analyzing supporting information
 1. List required resources and assumptions

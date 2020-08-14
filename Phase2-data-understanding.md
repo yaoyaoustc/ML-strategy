@@ -2,10 +2,13 @@
 
 ## Data Collection
 1. Detail various sources and steps to extract data
-e.g. object detection training data: vision camera/infrared camera
+- identify data sources and associated platform
+    - e.g. object detection training data: vision camera/infrared camera
+    - e.g. batch processing v.s. streaming processing?
 
 2. Analyze data for additional requirements
-e.g. Data encoding/ merging/ obtain more data
+- create awareness of potential data issues
+    - e.g. Data encoding/ merging/ obtain more data
 
 3. Consider other data sources
 e.g. Online public dataset, customer's domain knowledge.
@@ -15,10 +18,21 @@ e.g. Online public dataset, customer's domain knowledge.
 e.g. vision camera data, resolution, length, clips, tables?
 
 2. Find key features and relationships in the data
+- structured/unstructured
+- relational/un-relational
+- needs labeling or not (aws turk, labelimg, out-sourcing)
+
 e.g. object detection requires training data available. data needs to be labelled. 
 
 3. Use tools and techniques to explore data properties
-e.g. jupyter notebook. Azure data lake. Spark. Reporting tools.
+- identify data storage plan:
+    - on-prem or cloud
+    - data lake or data warehouse
+    - what can be stored as relational or which should be stored as key-value
+    - e.g. hadoop or regular
+    - database modeling
+- identify ETL process and related tools for data engineering:
+    - e.g. jupyter notebook, snowflake, dataiku, fivetran, spark, etc
 
 ## Data Quality
 1. Verifying attributes
