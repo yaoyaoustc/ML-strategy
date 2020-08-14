@@ -16,4 +16,5 @@ e.g. Missing data?
 e.g. DNN? random forest? Modeling techniques, constraints
 2. Model testing plan
 e.g. use what to evaluation the model?
-3. Parameter tuning/testing
+3. Hyper-parameter tuning/testing?
+e.g. sigopt, gpyopt, for hyprt-parameter tuning?
