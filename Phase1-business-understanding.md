@@ -1,14 +1,34 @@
 # Phase 1: Business Understanding
+Artificial Intelligence (AI) market is posing to become billions of dollar industry in next few years, as global spending by nations on AI is likely to touch around $35.8 billion in 2029 which reports a growth of 44% over the amount spent in year 2018.Such, impressive growth shows, AI holds huge potential to attract big organizations as well as small enterprises attracting them to implement AI-enabled services for better growth in the business.
+
+However, the truth is, 85% of Machine Learning projects fail in two years.
+
+Survey Statistic Why AI/ML Projects Fail:
+- 78% of AI/ML Projects Shut ate some stage Before Deployment
+- 81% Admit the process of training AI with data is more difficult than they expected
+- 76% struggle by attempting to label or annotate the training data on their own.
+- 63% try to build their own labeling and annotation automation technology.
+
+Make great Machine Learning Product is hard, but not impossible. Instead of starting from a ML problem, a deep understanding of the business requirements is the key to the success of a ML project.
 
 ## Understanding business requirements
-1. Understand business requirements
-e.g. A marine navigation company needs to integrate ML techniques into their navigation product. They want to build a application which can help improve the captain's situation awareness.
+Machine learning is getting ready for business, but are businesses ready for AI? Technical challenges are an important differentiating factor between industries. While big tech and academia are pushing advances in the performance of the underlying technology, engineering solutions need to be worked out for specific use cases, requiring both data and talent. Industries such as financial services, and high tech and telecom have generated and stored large volumes of structured data, but others, including construction and travel, lag far behind. Considering the various digital stages of different businesses, each machine learning project has to be specially designed based on deep understanding of the business requirements.
+
+1. Understand the nature of a ML product
+A machine learning product can be roughly classified into two categories:
+- Engineering Product:
+Unless you're tech giants or digital native companies like Google, Amazon, etc, most ML products should fall in this category. Most of the problems you will face are, in fact, engineering problems. Most companies won’t focus on developing ML models but will use an off-the-shelf model. For such businesses, having a reliable and easy to maintain ML application can make a huge boost to their revenue, while spending months to fine-tune the newest model appeared in the academia probably doesn't fit into their business requirement.
+
+Therefore, as a ML engineer, you have to temperately disable the "mathematician" part of you and release the "engineer" part of you. And repeat after me: No fancy algorithms! No complex pipelines! Easy and stable!
+
+- Research and Development Product
+If a business has a R&D product plan for machine learning, they are serious of making big impacts in this field. Most of the time they are equipped with talents and experts, and what they want from us is normally more in a management level instead of technical level. Again, this is not very common for a consult to step-in such machine learning product.
 
 2. Form a business question
 e.g. How ML can help improve the captain's situation awareness?
 
 3. Highlight project's critical features
-Depends on the company's structure, critical features can be the following:
+Depends on the business, critical features can be the following:
 - People and talent: ML engineers, data engineers, scrum masters(solution owner), QE, Experience Design, cloud engineer(cds), SE, etc
 - Resources: hardware, software
 - Budget: cost for implementing the whole plan
@@ -55,4 +75,5 @@ e.g.A iPAD application is developed to use object detection method to detect obj
 e.g. Fail to identify a boat or miss-identify something else as a boat? or both?
 
 6. Tools and techniques:
+Different tools in the ML life cycle
 e.g. object detection model. framework (darknet/tensorflow/pytorch). deployment method.
