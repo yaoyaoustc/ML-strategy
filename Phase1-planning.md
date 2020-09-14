@@ -6,7 +6,7 @@ Make great Machine Learning Product is hard, but not impossible. Instead of star
 Machine learning is getting ready for business, but are businesses ready for AI? Technical challenges are an important differentiating factor between industries. While big tech and academia are pushing advances in the performance of the underlying technology, engineering solutions need to be worked out for specific use cases, requiring both data and talent. Industries such as financial services, and high tech and telecom have generated and stored large volumes of structured data, but others, including construction and travel, lag far behind. Considering the various digital stages of different businesses, each machine learning project has to be specially designed based on deep understanding of the business requirements.
 
 1. Form a business question:
-Depends on whether the project is driven by the CIO or CFO, business might have different expectations from the ML product. The first step before diving into the ML solutions, is to ask a business question: From the business point of the view, what do you want?
+Depends on whether the project is driven by the CIO or CFO, business might have different expectations for the ML product. The first step before diving into the ML solutions, is to ask a business question: From the business point of the view, what do you want?
 
 For example, the business question can be:
     -  How can we improve the click-through rates of our ads?
@@ -37,12 +37,9 @@ Machine learning products can be roughly classified into two categories: Enginee
 
 
 2. Analyze associated risks
-e.g. business risks: fail to deploy the solution/solution doesn't work well/customer latency
+e.g. business risks: fail to deploy the solution/solution doesn't work well/customer latency 
 
-3. Plan for contingencies
-e.g. 
-
-4. Compare costs and benefits
+3. Compare costs and benefits
 e.g. estimate azure/aws/gcp costs based on the resources. estimate the profit introduced by the new product
 
 ## Converting to a Data Mining problem

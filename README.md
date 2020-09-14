@@ -11,8 +11,18 @@ Survey Statistic Why AI/ML Projects Fail:
 
 There are many talents on the market with the ability to explain a machine learning model in great details, but much fewer who actually engineered a ML product End-to-End. It’s easier for great engineers to pick up ML knowledge, but it’s a lot harder for ML experts to become great engineers. I've seen many companies with skillful machine learning experts but struggled to get their product out. Therefore, there has been a lot of talk on whether the AI bubble will burst. A large portion of AI investment is in self-driving cars, and as fully autonomous vehicles are still far from being a commodity, some hypothesize that investors will lose hope in AI altogether. In the future, there might be fewer companies that can afford to do ML research, but there will be no shortage of companies that need tooling to bring ML into their production.
 
-That's the motivation of this ML project planning strategy. We want to use our extensive knowledge to fill in the gaps between machine learning, engineering, and business. We want to provide an End-to-End handbook for you to help you engineer your ML product.
+That's the motivation of this ML project strategy. We want to use our extensive knowledge to fill in the gaps between machine learning, engineering, and business. We want to provide an End-to-End handbook for you to help you engineer your ML product.
 
+The lifecycle of modern ML projects can be summarized into 5 phase:
+- Phase 1: Business Understanding and Project Planning
+- Phase 2: Data Collection and Preparation
+- Phase 3: ML Model Training
+- Phase 4: ML Model Evaluation
+- Phase 5: ML Model Deployment and Monitoring
+
+![ML lifecycle](./figs/ml-lifecycle.png)
+
+Each phase will be discussed in the following sections.
 
 # Reference
 CRISP-DM
