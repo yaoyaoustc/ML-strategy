@@ -1,4 +1,6 @@
 # Phase 5: Deployment
+
+A machine learning model can only begin to add value to an organization when that model's insights routinely become available to the users for which it was built. The process of taking a trained ML model and making its predictions available to users or other systems is known as deployment.
 ## Planning deployment
 1. Model format?
 e.g. onnx format, .h5 format, .tfrecord format?

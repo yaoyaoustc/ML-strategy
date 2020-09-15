@@ -2,6 +2,7 @@
 
 ## Evaluation
 1. Accuracy of the model
+    - objective matrix?
 2. Model generalization on unseen data
 3. Evaluation of the model with business success criteria
 

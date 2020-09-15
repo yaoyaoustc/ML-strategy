@@ -22,7 +22,7 @@ The lifecycle of modern ML projects can be summarized into 5 phase:
 
 ![ML lifecycle](./figs/ml-lifecycle.png)
 
-Each phase will be discussed in the following sections.
+Each phase will be discussed in this guide.
 
 # Reference
 CRISP-DM
