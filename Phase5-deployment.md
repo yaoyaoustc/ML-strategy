@@ -1,4 +1,4 @@
-# Phase 5: Deployment
+# Phase 5: ML Model Deployment and Monitoring
 
 A machine learning model can only begin to add value to an organization when that model's insights routinely become available to the users for which it was built. The process of taking a trained ML model and making its predictions available to users or other systems is known as deployment.
 ## Planning deployment
@@ -22,6 +22,8 @@ e.g. aws beanstalk? docker container? on cloud solutions: aws sagemaker? azure m
 e.g. terraform?
 
 ## Maintenance and monitoring
+
+the moment you deployed your model, your model performance starts degrading because your model interacts with the real-world data and change the data distribution. "concept drifting"
 1. Code management?
 e.g. codecommit, git, etc
 

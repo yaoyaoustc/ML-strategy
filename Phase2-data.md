@@ -1,4 +1,4 @@
-# Phase 2: Data Understanding
+# Phase 2: Data Collection and Preparation
 
 ## Data Collection
 1. Detail various sources and steps to extract data
@@ -46,3 +46,7 @@ e.g. Some of the data with one resolution, other data has another resolution.
 
 4. Report solution
 e.g. discard the data with bad resolution.
+
+## Data format
+
+![ML data lifecycle](./figs/ml-data-format.png)
