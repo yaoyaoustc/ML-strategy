@@ -41,20 +41,6 @@ Therefore, it's necessary to take a look at all the supporting structures you ha
 
 ![ML infrastructure](./figs/ml-infrastructure.png)
 
-### 1. List required resources and assumptions
-
-    - People and talent: ML engineers, data engineers, scrum masters(solution owner), QE, Experience Design, cloud engineer(cds), SE, etc
-    - Resources: hardware, software
-    - Budget: cost for implementing the whole plan
-
-### 2. Analyze associated risks
-
-    e.g. business risks: fail to deploy the solution/solution doesn't work well/customer latency 
-
-### 3. Compare costs and benefits
-
-    e.g. estimate azure/aws/gcp costs based on the resources. estimate the profit introduced by the new product
-
 ## Converting Business question into a Machine Learning question
 
 Now we have a understanding of what the business questions is and what resources we have (or have to introduce). It's time to convert the business question into a ML question. 
