@@ -43,7 +43,7 @@ Therefore, it's necessary to take a look at all the supporting structures you ha
 ### 1. Infrastructure
 
 The picture below can be a good starting point when considering tools and infrastructures you want to use for this project.
-![ML infrastructure](./figs/ml-infrastructure.png)
+![ML sull stack](./figs/ml-full-stack.png)
 
 ### 2. Team
 
