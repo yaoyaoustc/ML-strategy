@@ -85,3 +85,15 @@ Things we should avoid is to let data live on filesystem or object storage witho
 
 The data we collected are raw data, now we need to apply different ETL process to extract features based on the raw data. Depends on the framework, you can use Spark, Pandas,jupyter notebook, snowflake, dataiku, fivetran or other tools to process the data.
 
+## Tests:
+
+Lastly, don't forget to set up tests for your data phase. Some key tests are:
+
+- Feature expectations are captured in a schema
+- All features are beneficial
+- No feature's cost too much
+- Features adhere to meta-level requirements
+- the data pipeline has appropriate privacy controls
+- New features can be added quickly
+- All input feature code is tested
+

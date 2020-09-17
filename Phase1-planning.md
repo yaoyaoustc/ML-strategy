@@ -36,10 +36,41 @@ Therefore, a clear definition of the kind of the ML product should be discussed 
 
 ## Analyzing supporting information
 
-Machine learning is no longer a stand-alone module of you whole tech stack. To deploy a successful ML model, ML code plays a relatively small part in this whole pipeline.
+Machine learning is no longer a stand-alone module of you whole tech stack. To deploy a successful ML project, We need many supporting informations such as tools and infrastructures, and the team.
+
 Therefore, it's necessary to take a look at all the supporting structures you have or have to introduce during this project.
 
+### 1. Infrastructure
+
+The picture below can be a good starting point when considering tools and infrastructures you want to use for this project.
 ![ML infrastructure](./figs/ml-infrastructure.png)
+
+### 2. Team
+
+Building any tech team is hard. Machine Learning talents are expensive and scarce. Machine Learning teams have a diverse set of roles. Machine Learning projects have unclear timelines and high uncertainty. Machine Learning is also the “high-interest credit card of technical debt." Leadership often doesn’t understand Machine Learning. All these challenges make building ML team quite hard.
+
+#### Roles
+
+![ML roles](./figs/ml-roles.png)
+
+#### Organization
+
+![ML org](./figs/ml-org.png)
+
+#### Managing
+
+Manage Machine Learning projects can be very challenging:
+- In Machine Learning, it is hard to tell in advance what’s hard and what’s easy.
+- Machine Learning progress is nonlinear.
+- There are cultural gaps between research and engineering because of different values, backgrounds, goals, and norms.
+- Often, leadership just does not understand it.
+
+The secret sauce is to plan the Machine Learning project probabilistically!
+- Attempt a portfolio of approaches.
+- Measure progress based on inputs, not results.
+- Have researchers and engineers work together.
+- Get end-to-end pipelines together quickly to demonstrate quick wins.
+- Educate leadership on Machine Learning timeline uncertainty.
 
 ## Converting Business question into a Machine Learning question
 
@@ -151,4 +182,16 @@ Besides question and objectives, I listed some key questions one should consider
     - Internal baselines: simple ML models with regression or simple classification, human performance.
 
     Then when the project starts, we can easily refer to this baseline and exam our models.
+
+8. Test-driven Machine Learning:
+
+    In traditional software development, code must be tested in a variety of ways before being promoted to production. For example, unit tests examine specific units of code while integration tests test the integration of your app with with software that lives outside of the application.
+
+    It’s important to test a machine learning model before promoting it to production. By properly testing a model you’ll gain confidence that the model works as intended.
+
+    Test a ML system is more complex than testing a software. For each phase in the ML pipeline, tests need to be conducted and planned ahead.
+
+    ![https://martinfowler.com/articles/cd4ml.html](./figs/ml-test.png) 
+
+
 
