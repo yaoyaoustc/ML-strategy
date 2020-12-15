@@ -1,4 +1,6 @@
 # deployment platform
+
+
 - cloud
 buying a huge computation system, people or users get an instance on cloud platforms like AWS, GCP, Microsoft Azure, etc. where it would cost around $150 per month approximately. 
 - on-prem
