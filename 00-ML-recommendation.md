@@ -1,5 +1,6 @@
 # Recommendation System
 
+
 Two kinds of recommendations are commonly used:
 - home page recommendations: personalized to a user based on their known interests.
 - related item recommendations: recommendations similar to a particular item
