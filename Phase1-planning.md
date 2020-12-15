@@ -22,32 +22,55 @@ Unlike most software projects, ML projects now still involved with some research
 
 Machine learning products can be roughly classified into two categories: Engineering product or R&D product.
 
-    - Engineering Product:
+- Engineering Product:
 
-        Unless you're tech giants or digital native companies like Google, Amazon, etc, most ML products should fall in this category. Most of the problems you will face are, in fact, engineering problems. Most companies won’t focus on developing ML models but will use an off-the-shelf model. For such businesses, having a reliable and easy to maintain ML application can make a huge boost to their revenue, while spending months to fine-tune the newest model appeared in the academia probably doesn't fit into their business requirement.
+    Unless you're tech giants or digital native companies like Google, Amazon, etc, most ML products should fall in this category. Most of the problems you will face are, in fact, engineering problems. Most companies won’t focus on developing ML models but will use an off-the-shelf model. For such businesses, having a reliable and easy to maintain ML application can make a huge boost to their revenue, while spending months to fine-tune the newest model appeared in the academia probably doesn't fit into their business requirement.
 
-        Therefore, as a ML engineer, you have to temperately disable the "mathematician" part of you and release the "engineer" part of you. And repeat after me: No fancy algorithms! No complex pipelines! Easy and stable!
+    Therefore, as a ML engineer, you have to temperately disable the "mathematician" part of you and release the "engineer" part of you. And repeat after me: No fancy algorithms! No complex pipelines! Easy and stable!
 
-    - Research and Development Product
+- Research and Development Product
         
-        If a business has a R&D product plan for machine learning, they are serious of making big impacts in this field. Most of the time they are equipped with talents and experts, and what they want from us is normally more in a management level instead of technical level. This is not very common for an engineer to step in such machine learning projects, actions depend on case by case.
+    If a business has a R&D product plan for machine learning, they are serious of making big impacts in this field. Most of the time they are equipped with talents and experts, and what they want from us is normally more in a management level instead of technical level. This is not very common for an engineer to step in such machine learning projects, actions depend on case by case.
 
 Therefore, a clear definition of the kind of the ML product should be discussed in this stage.
 
 ## Analyzing supporting information
 
-### 1. List required resources and assumptions
-    - People and talent: ML engineers, data engineers, scrum masters(solution owner), QE, Experience Design, cloud engineer(cds), SE, etc
-    - Resources: hardware, software
-    - Budget: cost for implementing the whole plan
+Machine learning is no longer a stand-alone module of you whole tech stack. To deploy a successful ML project, We need many supporting informations such as tools and infrastructures, and the team.
 
-### 2. Analyze associated risks
+Therefore, it's necessary to take a look at all the supporting structures you have or have to introduce during this project.
 
-    e.g. business risks: fail to deploy the solution/solution doesn't work well/customer latency 
+### 1. Infrastructure
 
-### 3. Compare costs and benefits
+The picture below can be a good starting point when considering tools and infrastructures you want to use for this project.
+![ML sull stack](./figs/ml-full-stack.png)
 
-    e.g. estimate azure/aws/gcp costs based on the resources. estimate the profit introduced by the new product
+### 2. Team
+
+Building any tech team is hard. Machine Learning talents are expensive and scarce. Machine Learning teams have a diverse set of roles. Machine Learning projects have unclear timelines and high uncertainty. Machine Learning is also the “high-interest credit card of technical debt." Leadership often doesn’t understand Machine Learning. All these challenges make building ML team quite hard.
+
+#### Roles
+
+![ML roles](./figs/ml-roles.png)
+
+#### Organization
+
+![ML org](./figs/ml-org.png)
+
+#### Managing
+
+Manage Machine Learning projects can be very challenging:
+- In Machine Learning, it is hard to tell in advance what’s hard and what’s easy.
+- Machine Learning progress is nonlinear.
+- There are cultural gaps between research and engineering because of different values, backgrounds, goals, and norms.
+- Often, leadership just does not understand it.
+
+The secret sauce is to plan the Machine Learning project probabilistically!
+- Attempt a portfolio of approaches.
+- Measure progress based on inputs, not results.
+- Have researchers and engineers work together.
+- Get end-to-end pipelines together quickly to demonstrate quick wins.
+- Educate leadership on Machine Learning timeline uncertainty.
 
 ## Converting Business question into a Machine Learning question
 
@@ -108,15 +131,21 @@ Besides question and objectives, I listed some key questions one should consider
 
     how much data will be needed?
 
+    Where the data is? on-prem or cloud?
+
     We need to have a basic idea of the data availability before starting.
 
 2. State of Art ML model in your domain:
 
     This part is like the literature research. We need to understand what's possible with current techniques and know what to try next. Take the ads again as an example, we know we can use collaborative filtering method in machine learning to build a recommendation system to predict user's preference. Then we need to spend time understanding the current limitation and advances in this field. What is the most common models to try? What is the most cited paper? How about other industry use cases?
 
-3. off-the-shelf models or our own models:
+3. Tools and infrastructures:
+
+    If we look at the whole machine learning system, the actual modeling code is very small. There are a lot of other code around it that configure the system, manage the data and resources, serve/deploy/moniting the model. Therefore, it's important to think ahead what tools and infrastructures you have access to in your business, what talent you already have and might have to introduce, what tools and infrastructure are on the market and worth to investigate in.
 
     This recently becomes a question for many firms, should you use off-the-shelf ML tools to build your ML product, or invent your own? Again, there are many factors affecting the decision making process such as cost, stability, scalability, talent, etc. 
+
+   ![ML Tools](./figs/ml-full-stack.png) 
 
 4. Model Evaluation Metrics:
 
@@ -154,7 +183,15 @@ Besides question and objectives, I listed some key questions one should consider
 
     Then when the project starts, we can easily refer to this baseline and exam our models.
 
+8. Test-driven Machine Learning:
 
-8. Tooling and infrastructure:
+    In traditional software development, code must be tested in a variety of ways before being promoted to production. For example, unit tests examine specific units of code while integration tests test the integration of your app with with software that lives outside of the application.
 
-    If we look at the whole machine learning system, the actual modeling code is very small. There are a lot of other code around it that configure the system, manage the data and resources, serve/deploy/moniting the model. Therefore, it's important to think ahead what tools and infrastructures you have access to in your business, what talent you already have and might have to introduce, what tools and infrastructure are on the market and worth to investigate in.
+    It’s important to test a machine learning model before promoting it to production. By properly testing a model you’ll gain confidence that the model works as intended.
+
+    Test a ML system is more complex than testing a software. For each phase in the ML pipeline, tests need to be conducted and planned ahead.
+
+    ![https://martinfowler.com/articles/cd4ml.html](./figs/ml-test.png) 
+
+
+
